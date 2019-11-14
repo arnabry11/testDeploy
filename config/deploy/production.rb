@@ -60,7 +60,7 @@ server "localhost", user: "deploy", roles: %w[web app db], port: 52022
 #     # password: "please use keys"
 #   }
 set :deploy_to, "/home/deploy/production"
-set :branch, "master"
+set :branch, "test-branch"
 set :rails_env, "production"
 set :rack_env, "production"
 set :puma_env, fetch(:rack_env)
