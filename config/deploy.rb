@@ -6,7 +6,7 @@ set :repo_url, "git@github.com:royarnab021/testDeploy.git"
 # set :deploy_to, "/home/deploy/apps"
 
 set :pty, true
-set :linked_files, %w[config/database.yml config/credentials.yml.enc config/master.key]
+#set :linked_files, %w[config/database.yml config/credentials.yml.enc config/master.key]
 set :linked_dirs, %w[log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system public/uploads node_modules]
 set :keep_releases, 5
 set :rvm_type, :user
