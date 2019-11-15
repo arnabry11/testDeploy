@@ -12,3 +12,7 @@ production:
   database: testDeploy_production
   host: 172.17.0.3
   port: 3306
+
+development:
+  <<: *default
+  database: testDeploy_development
