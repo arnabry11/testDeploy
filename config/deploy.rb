@@ -2,7 +2,7 @@
 lock "~> 3.11.2"
 
 set :application, "testDeploy"
-set :repo_url, "git@github.com:royarnab021/testDeploy.git"
+set :repo_url, "git@github.com:arnabry11/testDeploy.git"
 # set :deploy_to, "/home/deploy/apps"
 
 set :pty, true
