@@ -7,7 +7,7 @@
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
-server "localhost", user: "deploy", roles: %w[web app db], port: 52022
+server "18.219.166.183", user: "ryzen", roles: %w[web app db], port: 22
 
 # role-based syntax
 # ==================
@@ -59,7 +59,7 @@ server "localhost", user: "deploy", roles: %w[web app db], port: 52022
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
-set :deploy_to, "/home/deploy/production/testDeploy"
+set :deploy_to, "/var/deploy/ryzen/testDeploy"
 set :branch, "master"
 set :rails_env, "production"
 set :rack_env, "production"
